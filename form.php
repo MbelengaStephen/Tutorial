@@ -31,7 +31,7 @@
 
     <h2>Form Validation.</h2>
     <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="POST">
-        <label for="user">Fullname:</label><br>
+        <label for="user">Full Name:</label><br>
         <input type="text" id="name" name="fullname" required><br><br>
         <label for="email">Email:</label><br>
         <input type="text" name="email" id="email" required><br><br>
